@@ -37,7 +37,7 @@ GET / HTTP/1.1
 Host: example.com
 ```
 
-![HTTP Header](image.png)
+![HTTP Header](request.png)
 
 ## Why is it important?
 
