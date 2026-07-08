@@ -1,15 +1,14 @@
-+++
-date = '2026-07-08T13:37:59+03:30'
-draft = false
-title = 'Http Host Header'
-+++
-
 ---
-
 title: "Understanding HTTP Host Header"
 date: 2026-07-08
 draft: false
 
+cover:
+  image: "cover.jpg"
+
+tags:
+  - HTTP
+  - Apache
 ---
 
 categories:
