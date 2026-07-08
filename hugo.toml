@@ -39,3 +39,31 @@ identifier = "about"
 name = "About"
 url = "/about/"
 weight = 20
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 30
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 40
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 50
+
+[[menu.main]]
+identifier = "writeups"
+name = "Writeups"
+url = "/writeups/"
+weight = 60
+
+[taxonomies]
+category = "categories"
+tag = "tags"
