@@ -1,4 +1,41 @@
 baseURL = "https://kian-alasvandi.github.io/kian-blog/"
-languageCode = "en-us"
-title = "Kian Security Blog"
+title = "Kian Security"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+pagination.pagerSize = 10
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+  author = "Kian"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+
+[params.homeInfoParams]
+  Title = "Kian Security Blog"
+  Content = """
+Linux • Windows • Networking • Bug Bounty • Reverse Engineering
+"""
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 20
